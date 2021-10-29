@@ -74,7 +74,7 @@ export default {
   },
   methods: {
     listarproductos: function () {
-      let url = "http://127.0.0.1:8000/productss/";
+      //let url = "http://127.0.0.1:8000/productss/";
       let url = "https://storephone2-be.herokuapp.com/productss/";
       let config = { headers: {} };
       axios

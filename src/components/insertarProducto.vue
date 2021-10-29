@@ -67,7 +67,7 @@ import axios from 'axios'
                 console.log(this.insertar)
                 axios.post(
                     //'http://127.0.0.1:8000/productss/',
-                    'https://storephone2-be.herokuapp.com',
+                    'https://storephone2-be.herokuapp.com/productss/',
                     this.insertar,
                     {headers:{}}
 
